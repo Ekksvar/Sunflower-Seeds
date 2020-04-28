@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "sunflowerseeds:items/roasted_sunflower_seed_shell1"
+	}
+}

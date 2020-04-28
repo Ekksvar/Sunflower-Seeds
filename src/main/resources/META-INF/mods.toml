@@ -1,0 +1,43 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory 
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="sunflowerseeds" #mandatory
+
+version="1.0" #mandatory
+
+displayName="Sunflower Seeds" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+displayURL="https://www.curseforge.com/minecraft/mc-mods/sunflower-seeds" #optional
+
+logoFile="sunflower_seeds.png" #optional
+
+credits="Created by Ekksvar for Hamilton" #optional
+
+authors="Ekksvar" #optional
+
+description='''
+You can eat sunflower seeds and spit their shells. Also roast them.
+'''
+
+
+[[dependencies.sunflowerseeds]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.sunflowerseeds]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

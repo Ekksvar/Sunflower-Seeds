@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "sunflowerseeds:sunflower_seeds"
+	},
+	"result": "sunflowerseeds:roasted_sunflower_seeds",
+	"experience": 0.1,
+	"cookingtime": 50
+}
